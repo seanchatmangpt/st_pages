@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.3.3
+  rev: v0.3.7
   hooks:
   - id: ruff
     args:
@@ -16,6 +16,6 @@ repos:
     additional_dependencies:
     - types-all
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.5.0 # Use the ref you want to point at
+  rev: v4.6.0 # Use the ref you want to point at
   hooks:
   - id: trailing-whitespace
