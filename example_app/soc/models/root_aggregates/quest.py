@@ -154,7 +154,7 @@ def main2():
 
 
     from dspygen.rm.data_retriever import DataRetriever
-    data_retriever = DataRetriever(file_path="/Users/candacechatman/dev/soc/data/data.csv", return_columns=["year","state","crop"])
+    data_retriever = DataRetriever(file_path="/data/data.csv", return_columns=["year", "state", "crop"])
 
     apple_cultivation_quest.to_yaml("apple_cultivation_quest.yaml")
 
@@ -274,7 +274,7 @@ def create_apple_cultivation_quest():
         exam_points=[ep1, ep2],
         edges=[edge1, edge2],
         questions=[question1, question2],
-        data_path="/Users/candacechatman/dev/soc/data/data.csv"
+        data_path="/data/data.csv"
     )
 
     # The following attributes are mocked for the purpose of this example
