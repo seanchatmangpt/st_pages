@@ -159,7 +159,7 @@ if st.session_state.get("phase1_submitted", False):
             from soc.modules.socratic_question_module import socratic_question_call
 
             init_dspy()
-            result = socratic_question_call("teaching", f"{create_apple_cultivation_quest()}{prompt}")
+            result = socratic_question_call(str(create_apple_cultivation_quest()), prompt)
             msg = result
 
             st.session_state.messages.append({"role": "assistant", "content": msg})
