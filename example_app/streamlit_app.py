@@ -153,7 +153,7 @@ with col_chat:
     if prompt := st.chat_input():
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.chat_message("user").write(prompt)
-        from soc.modules.socratic_question_module import socratic_dialogue_call
+        from soc.modules.socratic_dialogue_module import socratic_dialogue_call
 
         init_dspy()
         result = socratic_dialogue_call(str(create_apple_cultivation_quest()), prompt)

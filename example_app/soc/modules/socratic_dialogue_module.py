@@ -23,7 +23,7 @@ class SocraticDialogueModule(dspy.Module):
         return other
 
     def forward(self, lesson_state, student_message):
-        pred = dspy.Predict("lesson_state, student_message -> teacher_message")
+        pred = dspy.ChainOfThought("lesson_state, student_message -> teacher_message")
         self.output = pred(lesson_state=lesson_state, student_message=student_message).teacher_message
         return self.output
 
