@@ -109,6 +109,8 @@ DEFAULT_MODEL = "gpt-3.5-turbo-0125"  # FOR TESTING
 
 _ = load_dotenv(find_dotenv())  # read local .env file
 
+choice_rationale = ""
+
 st.set_page_config(layout="wide")
 
 col_multq, col_chat = st.columns(2)
@@ -155,7 +157,7 @@ with col_chat:
         st.chat_message("user").write(prompt)
         from soc.modules.socratic_dialogue_module import socratic_dialogue_call
 
-        init_dspy()
+        init_dspy(model="gpt-4")
         result = socratic_dialogue_call(str(create_apple_cultivation_quest()), prompt)
         msg = result
 

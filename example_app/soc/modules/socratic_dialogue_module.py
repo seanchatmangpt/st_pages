@@ -5,6 +5,22 @@ import dspy
 from dspygen.utils.dspy_tools import init_dspy
 
 
+class SocraticDialogueSignature(dspy.Signature):
+    """
+    A Signature for generating Socratic dialogue responses based on the current lesson state and student message.
+
+    This module aims to facilitate educational dialogues by prompting students with thought-provoking questions or statements, encouraging deeper understanding and critical thinking.
+    """
+    lesson_state = dspy.InputField(
+        desc="A representation of the current state of the lesson, including any relevant context or content that has been covered.")
+    student_message = dspy.InputField(
+        desc="The message or question posed by the student, to which the Socratic dialogue response should be tailored.")
+
+    socratic_teacher_message = dspy.OutputField(
+        desc="The generated message from the Socratic teacher, designed to provoke further thought, challenge assumptions, or clarify understanding.")
+
+
+
 
 class SocraticDialogueModule(dspy.Module):
     """SocraticDialogueModule"""
@@ -23,7 +39,7 @@ class SocraticDialogueModule(dspy.Module):
         return other
 
     def forward(self, lesson_state, student_message):
-        pred = dspy.ChainOfThought("lesson_state, student_message -> socratic_teacher_message")
+        pred = dspy.ChainOfThought(SocraticDialogueSignature)
         self.output = pred(lesson_state=lesson_state, student_message=student_message).socratic_teacher_message
         return self.output
 
