@@ -10,7 +10,6 @@ from dspygen.utils.dspy_tools import init_dspy
 
 from soc.models.root_aggregates.quest import create_apple_cultivation_quest
 
-
 data_csv = """year,state,crop
 2019,Mississippi,970
 2019,Louisiana,1144
@@ -141,127 +140,125 @@ with col_multq:
         if st.button('Submit'):
             st.session_state["phase1_submitted"] = True
 
-if st.session_state.get("phase1_submitted", False):
-    with col_chat:
-
-        if "messages" not in st.session_state:
-            st.session_state["messages"] = [
-                {"role": "assistant", "content": "How can I help you?"}
-            ]
-
-        for msg in st.session_state.messages:
-            st.chat_message(msg["role"]).write(msg["content"])
-        # NOTE: for some reason, I couldn't correct the location of the chat input
-
-        if prompt := st.chat_input():
-            st.session_state.messages.append({"role": "user", "content": prompt})
-            st.chat_message("user").write(prompt)
-            from soc.modules.socratic_question_module import socratic_question_call
-
-            init_dspy()
-            result = socratic_question_call(str(create_apple_cultivation_quest()), prompt)
-            msg = result
-
-            st.session_state.messages.append({"role": "assistant", "content": msg})
-            st.chat_message("assistant").write(msg)
-
-        with st.expander("Socrates thought process"):
-            st.json([
-    {
-        "id": "1",
-        "messages": [
-            {
-                "message_id": "397024f1863c4911910bececc4a34e53",
-                "text": "Hello, world!",
-                "timestamp": "2024-04-11 01:24:30.310796",
-                "user": {
-                    "id": "ff0f4d1338d342b5942f9a049e5b2be8",
-                    "name": "John Doe"
-                },
-                "intents": [],
-                "entities": []
-            }
+with col_chat:
+    if "messages" not in st.session_state:
+        st.session_state["messages"] = [
+            {"role": "assistant", "content": "How can I help you?"}
         ]
-    },
-    {
-        "id": "90107f2b78af4915876228af9a198ce9",
-        "messages": [
+
+    for msg in st.session_state.messages:
+        st.chat_message(msg["role"]).write(msg["content"])
+    # NOTE: for some reason, I couldn't correct the location of the chat input
+
+    if prompt := st.chat_input():
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        st.chat_message("user").write(prompt)
+        from soc.modules.socratic_question_module import socratic_dialogue_call
+
+        init_dspy()
+        result = socratic_dialogue_call(str(create_apple_cultivation_quest()), prompt)
+        msg = result
+
+        st.session_state.messages.append({"role": "assistant", "content": msg})
+        st.chat_message("assistant").write(msg)
+
+    with st.expander("Socrates thought process"):
+        st.json([
             {
-                "message_id": "a646ecd41620442bbc99a996ad172a85",
-                "text": "Hello, world!",
-                "timestamp": "2024-04-11 01:32:16.893443",
-                "user": {
-                    "id": "8b1675a21e1c42cf8eeb8fa939c0a3bf",
-                    "name": "John Doe"
-                },
-                "intents": [],
-                "entities": []
-            }
-        ]
-    },
-    {
-        "id": "7e6434040759418d8fcb14ce188580f5",
-        "messages": [
-            {
-                "message_id": "5c45f6b76793453e951bc8f6eec13f39",
-                "text": "Hello, world!",
-                "timestamp": "2024-04-11 01:32:52.182113",
-                "user": {
-                    "id": "45873980b049427b8bb58f8aa33cd5ed",
-                    "name": "John Doe"
-                },
-                "intents": [],
-                "entities": []
-            }
-        ]
-    },
-    {
-        "id": "0d5de739a3b545ea95921b6b9b27e39f",
-        "messages": [
-            {
-                "message_id": "fbc2e4b17da646d5bfcb078fba954683",
-                "text": "How do growers communicate with each other?",
-                "timestamp": "2024-04-11 11:56:29.970491",
-                "user": {
-                    "id": "3fe3156db4d94162a6877ff5ea08a1e3",
-                    "name": "User"
-                },
-                "intents": [],
-                "entities": []
+                "id": "1",
+                "messages": [
+                    {
+                        "message_id": "397024f1863c4911910bececc4a34e53",
+                        "text": "Hello, world!",
+                        "timestamp": "2024-04-11 01:24:30.310796",
+                        "user": {
+                            "id": "ff0f4d1338d342b5942f9a049e5b2be8",
+                            "name": "John Doe"
+                        },
+                        "intents": [],
+                        "entities": []
+                    }
+                ]
             },
             {
-                "message_id": "6c9a8cf9ee834e359dd7debea5a0b8f3",
-                "text": "User Response: The user's response to the previous question.\nEvaluation Result:\n\nThe user's response does not directly relate to the learning outcomes about understanding apple cultivation and parasite impact. The question asked by the user, \"How do growers communicate with each other?\", diverts from the main topic of apple cultivation and parasite impact. To assess the user's understanding of the provided material, focusing on the learning outcomes is essential. Encouraging the user to engage with questions relevant to the material will provide more accurate insights into their understanding and misconceptions of the topic.",
-                "timestamp": "2024-04-11 11:56:36.291597",
-                "user": {
-                    "id": "fd1a1bd7f9074f80b38b092b02b87ffa",
-                    "name": "Socrates"
-                },
-                "intents": [],
-                "entities": []
+                "id": "90107f2b78af4915876228af9a198ce9",
+                "messages": [
+                    {
+                        "message_id": "a646ecd41620442bbc99a996ad172a85",
+                        "text": "Hello, world!",
+                        "timestamp": "2024-04-11 01:32:16.893443",
+                        "user": {
+                            "id": "8b1675a21e1c42cf8eeb8fa939c0a3bf",
+                            "name": "John Doe"
+                        },
+                        "intents": [],
+                        "entities": []
+                    }
+                ]
             },
             {
-                "message_id": "8358b1ff50f64284b861115257e58b39",
-                "text": "What are the 3 most common factors?",
-                "timestamp": "2024-04-11 11:57:23.041879",
-                "user": {
-                    "id": "30895112c4fc4bc2b5b071763c629c25",
-                    "name": "User"
-                },
-                "intents": [],
-                "entities": []
+                "id": "7e6434040759418d8fcb14ce188580f5",
+                "messages": [
+                    {
+                        "message_id": "5c45f6b76793453e951bc8f6eec13f39",
+                        "text": "Hello, world!",
+                        "timestamp": "2024-04-11 01:32:52.182113",
+                        "user": {
+                            "id": "45873980b049427b8bb58f8aa33cd5ed",
+                            "name": "John Doe"
+                        },
+                        "intents": [],
+                        "entities": []
+                    }
+                ]
             },
             {
-                "message_id": "d4b7a5af0cfd4d09a4ce926c3cdae246",
-                "text": "The user's response is incomplete and vague, making it difficult to evaluate their understanding of the learning outcomes. The term \"3 most common factors\" does not explicitly relate to the learning outcomes regarding apple cultivation and parasite impact. To accurately evaluate the user's understanding, it would be helpful to refer to specific elements from the material, such as the names of apple varieties, specific pests, or cultivation practices. Encouraging the user to respond to more targeted questions or providing a specific context would help assess their comprehension more accurately.",
-                "timestamp": "2024-04-11 11:57:24.009136",
-                "user": {
-                    "id": "063a126ad5bc465b98722cd2112ad8b8",
-                    "name": "Socrates"
-                },
-                "intents": [],
-                "entities": []
+                "id": "0d5de739a3b545ea95921b6b9b27e39f",
+                "messages": [
+                    {
+                        "message_id": "fbc2e4b17da646d5bfcb078fba954683",
+                        "text": "How do growers communicate with each other?",
+                        "timestamp": "2024-04-11 11:56:29.970491",
+                        "user": {
+                            "id": "3fe3156db4d94162a6877ff5ea08a1e3",
+                            "name": "User"
+                        },
+                        "intents": [],
+                        "entities": []
+                    },
+                    {
+                        "message_id": "6c9a8cf9ee834e359dd7debea5a0b8f3",
+                        "text": "User Response: The user's response to the previous question.\nEvaluation Result:\n\nThe user's response does not directly relate to the learning outcomes about understanding apple cultivation and parasite impact. The question asked by the user, \"How do growers communicate with each other?\", diverts from the main topic of apple cultivation and parasite impact. To assess the user's understanding of the provided material, focusing on the learning outcomes is essential. Encouraging the user to engage with questions relevant to the material will provide more accurate insights into their understanding and misconceptions of the topic.",
+                        "timestamp": "2024-04-11 11:56:36.291597",
+                        "user": {
+                            "id": "fd1a1bd7f9074f80b38b092b02b87ffa",
+                            "name": "Socrates"
+                        },
+                        "intents": [],
+                        "entities": []
+                    },
+                    {
+                        "message_id": "8358b1ff50f64284b861115257e58b39",
+                        "text": "What are the 3 most common factors?",
+                        "timestamp": "2024-04-11 11:57:23.041879",
+                        "user": {
+                            "id": "30895112c4fc4bc2b5b071763c629c25",
+                            "name": "User"
+                        },
+                        "intents": [],
+                        "entities": []
+                    },
+                    {
+                        "message_id": "d4b7a5af0cfd4d09a4ce926c3cdae246",
+                        "text": "The user's response is incomplete and vague, making it difficult to evaluate their understanding of the learning outcomes. The term \"3 most common factors\" does not explicitly relate to the learning outcomes regarding apple cultivation and parasite impact. To accurately evaluate the user's understanding, it would be helpful to refer to specific elements from the material, such as the names of apple varieties, specific pests, or cultivation practices. Encouraging the user to respond to more targeted questions or providing a specific context would help assess their comprehension more accurately.",
+                        "timestamp": "2024-04-11 11:57:24.009136",
+                        "user": {
+                            "id": "063a126ad5bc465b98722cd2112ad8b8",
+                            "name": "Socrates"
+                        },
+                        "intents": [],
+                        "entities": []
+                    }
+                ]
             }
-        ]
-    }
-])
+        ])
