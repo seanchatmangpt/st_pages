@@ -1,0 +1,50 @@
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for Message
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x109862650>
+Error You need to create a kwargs dict for Message
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x109862650>
+Output:
+{"message_id": uuid_factory(), "text": "What is the weather in New York?", "timestamp": datetime.now(), "user": None, "intents": [], "entities": [], "name": "Get Weather", "description": "Get the current weather for a specific location", "example_phrases": ["What is the weather in New York?", "What is the temperature in London?"], "parameters": [], "entity": "Location", "value": "New York", "start": 21, "end": 28, "confidence": None}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for Message
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x1377e3340>
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"

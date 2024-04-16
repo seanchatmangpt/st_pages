@@ -1,0 +1,65 @@
+creator:
+  name: Dr. Appleseed
+  role: creator
+edges:
+- bridging_concept: Pests affecting apple trees
+  from_ep: ep1
+  to_ep: ep2
+- bridging_concept: Strategies to mitigate pest impact
+  from_ep: ep2
+  to_ep: ep3
+exam_points:
+- assumptions:
+  - The pest's impact is primarily due to its rapid reproduction and lack of effective pesticides.
+  - Similar climate conditions across apple-growing regions might lead to widespread pest spread.
+  ep_number: 1
+  evidence:
+  - Research data showing a 40% decrease in apple yield in Mississippi due to the pest.
+  - Farmer testimonials on pest sightings and crop damage.
+  reasoning: The emergence of a new pest has significantly impacted apple cultivation in Mississippi, indicating a severe threat to crop yield.
+- assumptions:
+  - The pest will encounter similar environmental conditions in other states as in Mississippi.
+  - No effective pest control measures will be developed within the year.
+  ep_number: 2
+  evidence:
+  - Predictive models suggesting a 40% decrease in nationwide apple production in the next year.
+  - Studies on pest mobility and survival indicating potential for rapid spread.
+  reasoning: Given the pest's characteristics and lack of current control measures, it's projected to spread across the United States, significantly affecting apple production.
+- assumptions:
+  - Genetic modification can effectively confer resistance to the pest.
+  - Resistant apple varieties can be developed and deployed rapidly enough to impact pest spread.
+  ep_number: 3
+  evidence:
+  - Early-stage research on genetically modified apple varieties showing resistance to the pest.
+  - Funding announcements for research into pest-resistant crops.
+  reasoning: Scientific efforts are underway to develop apple varieties resistant to the pest, which could mitigate future crop losses.
+id: '1'
+questions:
+- correct_option: 0
+  id: fd79242ea58b402792fd6364d4950353
+  options:
+  - Mississippi
+  - Louisiana
+  - Arkansas
+  - Alabama
+  text: What state experienced a significant decrease in apple cultivation due to a new parasite in 2023?
+  type: Multiple Choice
+- correct_option: 2
+  id: aa44ae929fe545bca8ebe2568e7d346e
+  options:
+  - No change
+  - 20% decrease
+  - 40% decrease
+  - 60% increase
+  text: What is the expected impact on apple cultivation across the United States by 2024?
+  type: Multiple Choice
+- correct_option: 0
+  id: 1329732940a84c0597d9d24e5d496d8f
+  options:
+  - Granny Smith
+  - Red Delicious
+  - Honeycrisp
+  - Fuji
+  text: Which variety of apples was most affected by the parasite?
+  type: Multiple Choice
+title: Understanding Apple Cultivation and Parasite Impact

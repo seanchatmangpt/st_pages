@@ -16,4 +16,3 @@ show_pages(
         Page("src/soc/socratic_question.py", "Socratic Question", "🤔"),
     ]
 )
-

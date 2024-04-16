@@ -1,0 +1,63 @@
+educational_content:
+  quests:
+    - id: 1
+      title: "Understanding Apple Cultivation Challenges"
+      creator:
+        name: "Dr. Green Thumb"
+        role: "Botanist"
+      questions:
+        - id: 1
+          text: "Considering the rapid spread of the new parasite, which strategy is most likely to mitigate its impact on apple cultivation volumes in the United States?"
+          type: "Multiple Choice"
+          options:
+            - "(a) Introducing genetically modified apple varieties resistant to the parasite."
+            - "(b) Increasing the use of existing insecticides."
+            - "(c) Introducing natural predators of the parasite into apple cultivation areas."
+            - "(d) Importing more apples to meet demand, ignoring the parasite's impact."
+          correct_option: 2
+user_interaction:
+  conversations:
+    - conversation_id: "conv_001"
+      messages:
+        - message_id: "msg_001"
+          text: "What's being done to address the new parasite affecting apple crops?"
+          timestamp: "2024-04-08T16:53:54.710474"
+          user_id: "student_01"
+          intents:
+            - intent: "inquire_solution"
+              confidence: 0.95
+          entities: []
+        - message_id: "msg_002"
+          text: "Several strategies are being considered, including the introduction of natural predators to combat the parasite effectively."
+          timestamp: "2024-04-08T16:54:00.710486"
+          user_id: "tutor_ai"
+          intents: []
+          entities: []
+feedback_and_evaluation:
+  feedback:
+    - feedback_id: "FB1"
+      content: "Excellent analysis on the impact of the new parasite. Continue exploring diverse agricultural strategies."
+      action_required: false
+  system_prompts:
+    - objective: "Stimulate critical thinking on agricultural challenges and their solutions."
+      exam_points:
+        - ep_number: 1
+          evidence:
+            - "Rapid reproduction of the parasite poses a significant threat."
+          reasoning: "Introducing natural predators might offer a sustainable solution."
+          assumptions:
+            - "Effective natural predators are available and can be introduced without adverse ecological impacts."
+      edges:
+        - from_ep: 1
+          to_ep: 2
+          bridging_concept: "Ecosystem balance"
+      question_construction_steps:
+        - step_number: 1
+          description: "Examine the ecological implications of introducing predators."
+      feedback:
+        - feedback_id: "FB2"
+          content: "Exploring ecosystem balance is crucial. Delve into potential unintended consequences of introducing predators."
+          action_required: false
+      output_format:
+        formulated_question: "Discuss the ecological implications of introducing natural predators as a solution to the parasite problem in apple cultivation."
+        reason_for_this_question: "To evaluate the sustainability and potential risks of biological control methods."

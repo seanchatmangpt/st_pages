@@ -1,0 +1,211 @@
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": None}, "poem": "Hello, Curious Cow! I am doing well, thank you for asking. Remember to always be kind and curious, just like me!"}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": None}, "poem": "Hello, Curious Cow! I am doing well, thank you for asking. Remember to always be kind and curious, just like me!"}
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": None}, "poem": "Hello, Curious Cow! I am doing well, thank you for asking. Remember to always be kind and curious, just like me!"}
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": None}, "poem": "Hello, Curious Cow! I am doing well, thank you for asking. Remember to always be kind and curious, just like me!"}
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": []}, "poem": "Hello, Curious Cow! I'm doing well, thank you for asking. I hope you're having a great day too!"}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='Hello! I am doing well, thank you for asking.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Output:
+{"user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": {"level": 1, "categories": []}, "poem": "Hello, Curious Cow! I am doing well, thank you for asking. Remember to always be kind and curious, just like me!"}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+Error You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+Output:
+{ "user_input": "Hello, Curious Cow! How are you today?", "character": "Curious Cow", "moderation": { "level": 1 }, "poem": "" }
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='This is a poem with at least 50 characters.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"

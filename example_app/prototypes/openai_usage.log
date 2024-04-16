@@ -1,0 +1,149 @@
+Finished processing state idle exit callbacks.
+Finished processing state conversing enter callbacks.
+Finished processing state idle exit callbacks.
+Finished processing state conversing enter callbacks.
+Finished processing state conversing exit callbacks.
+Finished processing state completed enter callbacks.
+Finished processing state idle exit callbacks.
+Finished processing state conversing enter callbacks.
+Finished processing state idle exit callbacks.
+Finished processing state conversing enter callbacks.
+Finished processing state initial exit callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state quizzing exit callbacks.
+Finished processing state initial exit callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state quizzing exit callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Could not import pygraphviz backend. Will try graphviz backend next
+Could not import pygraphviz backend. Will try graphviz backend next
+Finished processing state initial exit callbacks.
+Finished processing state teaching enter callbacks.
+Executed callback 'display_content'
+Could not import pygraphviz backend. Will try graphviz backend next
+Finished processing state initial exit callbacks.
+Finished processing state teaching enter callbacks.
+Executed callback 'display_content'
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state evaluating exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state evaluating exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state evaluating exit callbacks.
+Executed callback 'on_enter_concluding'
+Finished processing state concluding enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state evaluating exit callbacks.
+Executed callback 'on_enter_quizzing'
+Finished processing state quizzing enter callbacks.
+Finished processing state quizzing exit callbacks.
+Executed callback 'on_enter_evaluating'
+Finished processing state evaluating enter callbacks.
+Finished processing state evaluating exit callbacks.
+Executed callback 'on_enter_concluding'
+Finished processing state concluding enter callbacks.
+Finished processing state concluding exit callbacks.
+Executed callback 'on_enter_concluding'
+Finished processing state concluding enter callbacks.

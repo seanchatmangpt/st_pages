@@ -1,0 +1,28 @@
+edges:
+- bridging_concept: Bridging concept text here
+  from_ep: 1
+  to_ep: 2
+exam_points:
+- assumptions:
+  - assumption: Assumption text here
+  ep_number: 1
+  evidence:
+  - evidence: Evidence text here
+  reasoning:
+    reasoning: Reasoning text here
+feedback:
+- action_required: false
+  content: Excellent reasoning
+  feedback_id: FB1
+objective: Facilitate the User's data literacy learning using the Socratic Method by driving immersive discussions
+output_format:
+  formulated_question: What is the required assumption for your argument?
+  intermediate_outputs:
+    intermediate_outputs: []
+    question: Initial user question
+    reason_for_question: To explore the assumption behind the user's reasoning
+  reason_for_this_question: Based on the logical structure of the User, there seems to be a missing assumption from X to Y.
+question_construction_steps:
+- description: Translate the answer into English, keeping the logical concept
+  output: null
+  step_number: 1

@@ -1,0 +1,123 @@
+2024-04-01 08:59:53,743 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+2024-04-01 08:59:58,527 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:00:20,603 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+2024-04-01 09:00:20,605 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:00:35,250 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+2024-04-01 09:00:35,253 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:03:08,881 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.6/v/list_type
+2024-04-01 09:03:11,344 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:04:14,734 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+2024-04-01 09:05:14,145 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='Hello! I am doing well, thank you for asking.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:05:31,692 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+2024-04-01 09:06:17,035 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+2024-04-01 09:06:24,278 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+2 validation errors for CharacterMessage
+moderation.categories
+  List should have at least 1 item after validation, not 0 [type=too_short, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:09:20,164 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short
+2024-04-01 09:09:23,533 - dspy.primitives.assertions - ERROR - AssertionError: You need to create a kwargs dict for CharacterMessage
+
+            Validation error:
+1 validation error for CharacterMessage
+poem
+  String should have at least 50 characters [type=string_too_short, input_value='This is a poem with at least 50 characters.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/string_too_short

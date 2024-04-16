@@ -1,0 +1,48 @@
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Finished processing state teaching exit callbacks.
+Finished processing state concluding enter callbacks.
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Finished processing state teaching exit callbacks.
+Finished processing state concluding enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state teaching exit callbacks.
+Finished processing state concluding enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Finished processing state initial exit callbacks.
+Executed callback 'on_enter_teaching'
+Finished processing state teaching enter callbacks.

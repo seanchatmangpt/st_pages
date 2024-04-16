@@ -1,0 +1,34 @@
+conversation_id: '2024-04-10 21:39:00.634320'
+messages:
+- entities: []
+  intents: []
+  message_id: '2024-04-10 21:20:44.817726'
+  text: Welcome to the Chatbot Assistant!
+  timestamp: 2024-04-10 21:20:44.817729
+  user:
+    name: Chatbot
+    user_id: '2024-04-10 21:20:44.817722'
+- entities: []
+  intents: []
+  message_id: '2024-04-10 21:20:48.521614'
+  text: /start
+  timestamp: 2024-04-10 21:20:48.521672
+  user:
+    name: User
+    user_id: '2024-04-10 21:20:44.817717'
+- entities: []
+  intents: []
+  message_id: '2024-04-10 21:39:05.677626'
+  text: Welcome to the Chatbot Assistant!
+  timestamp: 2024-04-10 21:39:05.677648
+  user:
+    name: Chatbot
+    user_id: '2024-04-10 21:39:00.634587'
+- entities: []
+  intents: []
+  message_id: '2024-04-10 21:39:15.925699'
+  text: Welcome to the Chatbot Assistant!
+  timestamp: 2024-04-10 21:39:15.925723
+  user:
+    name: Chatbot
+    user_id: '2024-04-10 21:39:00.634587'
