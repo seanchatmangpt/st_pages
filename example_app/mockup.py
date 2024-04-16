@@ -1,3 +1,5 @@
+from io import StringIO
+
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
@@ -38,7 +40,7 @@ data_csv = """year,state,crop
 
 ### Ploting ----
 
-df = pd.read_csv(data_csv)
+df = pd.read_csv(StringIO(data_csv))
 
 # Defining a color palette
 color_palette = {
